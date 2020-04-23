@@ -1,10 +1,10 @@
 def roll_call_dwarves(array)# code an argument here
   # Your code here
-  count = 1
+  
   array.each_with_index do |name, index|
     
-    puts " #{count}#{name} #{index+1} "
-    count += 1
+    puts " #{index+1} #{name}  "
+    
   end
   
 end
