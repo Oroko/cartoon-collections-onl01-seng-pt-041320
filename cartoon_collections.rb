@@ -3,6 +3,8 @@ def roll_call_dwarves(array)# code an argument here
   count = 0
   array.each_with_index do |name, index|
     
+    puts " "
+    
   end
   
 end
