@@ -11,8 +11,8 @@ end
 
 def summon_captain_planet(array)# code an argument here
   # Your code here
-  array.map do |name,index|
-    "#{name.capitalize}! #{index+1}"
+  array.map do |name|
+    "#{name.capitalize}!"
   end
     
 end
